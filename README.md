@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Trendy treasures, responsive e-commerce application built with Vue 3 and styled using Tailwind CSS. This project demonstrates how to create a dynamic product catalog with features such as product listing, filtering, sorting, and detailed product views.
 
@@ -16,6 +17,35 @@ Pinia - The intuitive store for Vue.js
 Vue Router - The official router for Vue.js
 Project Structure
 
+=======
+# **_**
+
+Trendy treasures, responsive e-commerce application built with Vue 3 and styled using Tailwind CSS. This project demonstrates how to create a dynamic product catalog with features such as product listing, filtering, sorting, and detailed product views.
+
+
+
+## Features
+
+- Responsive grid layout for product display
+- Product filtering by category
+- Price-based sorting (ascending and descending)
+- Detailed product view page
+- Loading spinners for improved user experience
+- State management using Pinia
+
+## Technologies Used 🛠️
+
+- [Vue 3](https://v3.vuejs.org/) - The progressive JavaScript framework for building user interfaces
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for rapid UI development
+- [Vite](https://vitejs.dev/) - Next generation frontend tooling
+- [Pinia](https://pinia.vuejs.org/) - The intuitive store for Vue.js
+- [Vue Router](https://router.vuejs.org/) - The official router for Vue.js
+
+## Project Structure
+
+```
+
+>>>>>>> 5d94d84910abf4152922c4672fd79a8268473cfe
 |-- public
 |   |-- 
 |-- src
