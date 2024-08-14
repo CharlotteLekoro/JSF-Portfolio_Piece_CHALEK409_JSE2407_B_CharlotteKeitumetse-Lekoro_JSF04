@@ -12,7 +12,7 @@
           <img
             src="../assets/android-chrome-192x192.png"
             class="h-8"
-            alt="FluxStore Logo"
+            alt="Tredy Treasures Logo"
           />
           <span
             class="self-center text-2xl font-semibold whitespace-nowrap text-white"
