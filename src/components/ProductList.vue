@@ -1,10 +1,14 @@
 <template>
     <div>
-      <p class="text-gray-700 mb-2">Product data has been saved to local storage.</p>
-      <button @click="toggleProducts" class="bg-blue-500 text-white px-4 py-2 rounded">
-        {{ displayProducts ? 'Hide Products' : 'Show Products' }}
-      </button>
+      <!-- Conditionally render button only on home route -->
+      <div v-if="isHomePage">
+        <p class="text-gray-700 mb-2">Product data has been saved to local storage.</p>
+        <button @click="toggleProducts" class="bg-blue-500 text-white px-4 py-2 rounded">
+          {{ displayProducts ? 'Hide discounted Products' : 'Show discounted Products' }}
+        </button>
+      </div>
   
+      <!-- Display products if toggle is true -->
       <div v-if="displayProducts" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
         <div 
           v-for="product in products" 
@@ -22,12 +26,20 @@
   </template>
   
   <script>
+  import { computed } from 'vue';
+  import { useRoute } from 'vue-router';
+  
   export default {
     data() {
       return {
         products: [],
         displayProducts: false, // Control when to display products
       };
+    },
+    setup() {
+      const route = useRoute();
+      const isHomePage = computed(() => route.path === '/');
+      return { isHomePage };
     },
     async created() {
       // Fetch products from the API
