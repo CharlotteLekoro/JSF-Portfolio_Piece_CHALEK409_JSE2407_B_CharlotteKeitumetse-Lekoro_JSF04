@@ -38,13 +38,13 @@
   
   .toggle {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     cursor: pointer;
     width: 100.5px; /* 85% of 170px */
     height: 50px;    /* 85% of 100px */
     background-color: #a690be;
     border-radius: 50px;
-    position: inline;
+    position: absolute;
   }
   
   .toggle-btn {
@@ -56,10 +56,6 @@
     border-radius: 50%; /* Make the toggle button circular */
   }
   
-  /* Add styles for night mode */
-  .night {
-    background-color: #2c3e50; /* Example dark background */
-    color: #ecf0f1;            /* Example light text color */
-  }
+ 
   </style>
   
