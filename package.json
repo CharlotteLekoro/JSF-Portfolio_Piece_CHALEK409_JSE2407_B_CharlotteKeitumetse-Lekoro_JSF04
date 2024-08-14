@@ -1,5 +1,5 @@
 {
-  "name": "module-4-mohmus379-jse2407-groupa-mohau-mushi-jsf03",
+  "name": "JSF-Portfolio_Piece_CHALEK409_JSE2407_B_CharlotteKeitumetse-Lekoro_JSF04",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +11,7 @@
   "dependencies": {
     "pinia": "^2.2.0",
     "vue": "^3.4.31",
-    "vue-router": "^4.4.2"
+   "vue-router": "^4.4.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",

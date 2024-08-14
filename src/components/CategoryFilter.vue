@@ -10,7 +10,7 @@
       id="category"
       :value="selectedCategory"
       @change="handleCategoryChange"
-      class="block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+      class="block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md"
     >
       <!-- Default option for all categories -->
       <option value="">All Categories</option>

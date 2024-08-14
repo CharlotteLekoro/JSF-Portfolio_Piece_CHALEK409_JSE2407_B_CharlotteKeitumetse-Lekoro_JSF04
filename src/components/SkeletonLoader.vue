@@ -7,13 +7,13 @@
     <div
       v-for="_ in count"
       :key="_"
-      class="animate-pulse bg-white border border-slate-200 shadow shadow-slate-950/5 rounded-2xl overflow-hidden"
+      class="animate-pulse bg-gray-200 border border-slate-300 shadow shadow-slate-950/5 rounded-2xl overflow-hidden"
     >
       <!-- Skeleton for product image -->
-      <div class="flex items-center justify-center h-48 bg-gray-400">
+      <div class="flex items-center justify-center h-48 bg-gray-500">
         <!-- Placeholder SVG for product image -->
         <svg
-          class="w-10 h-10 text-gray-200 dark:text-gray-600"
+          class="w-10 h-10 text-gray-300 dark:text-gray-600"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"

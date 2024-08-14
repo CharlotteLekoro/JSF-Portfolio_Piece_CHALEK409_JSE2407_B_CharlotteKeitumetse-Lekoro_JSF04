@@ -29,7 +29,7 @@
       <!-- No products found message -->
       <p
         v-if="filteredAndSortedProducts.length === 0"
-        class="text-center text-red-500 font-extrabold p-4 flex items-center justify-center"
+        class="text-center text-pink-400 font-extrabold p-4 flex items-center justify-center"
       >
         No products found.
       </p>

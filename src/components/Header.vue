@@ -25,7 +25,7 @@
         <button
           @click="toggleMenu"
           type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-violet-500 focus:outline-none focus:ring-2 focus:ring-gray-200"
           :aria-expanded="isOpen"
         >
           <span class="sr-only">Open main menu</span>
@@ -53,13 +53,13 @@
           id="navbar-dropdown"
         >
           <ul
-            class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-teal-700 md:flex-row md:space-x-8 md:mt-0 md:border-0"
+            class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-violet-500 md:flex-row md:space-x-8 md:mt-0 md:border-0"
           >
             <!-- Wishlist link -->
             <li>
               <router-link
                 :to="{ name: 'Wishlist' }"
-                class="text-white hover:bg-teal-600 hover:text-white block px-3 py-1 rounded-md text-base font-medium md:m-0"
+                class="text-white hover:bg-violet-500 hover:text-white block px-3 py-1 rounded-md text-base font-medium md:m-0"
               >
                 WishList
               </router-link>
@@ -68,7 +68,7 @@
             <li>
               <router-link
                 :to="{ name: 'Cart' }"
-                class="hidden lg:block md:block relative text-white px-2 py-1 hover:bg-teal-600 rounded-md"
+                class="hidden lg:block md:block relative text-white px-2 py-1 hover:bg-violet-500 rounded-md"
               >
                 <div class="absolute -top-2 -right-2">
                   <p
@@ -99,7 +99,7 @@
             <li>
               <router-link
                 :to="{ name: 'Cart' }"
-                class="lg:hidden md:hidden block py-2 px-3 text-white rounded-md hover:bg-teal-600 md:hover:bg-transparent md:border-0 md:hover:text-teal-300 md:p-0"
+                class="lg:hidden md:hidden block py-2 px-3 text-white rounded-md hover:bg-violet-500 md:hover:bg-transparent md:border-0 md:hover:text-violet-400 md:p-0"
               >
                 Cart
               </router-link>
@@ -108,7 +108,7 @@
             <li>
               <router-link
                 :to="{ name: 'Login' }"
-                class="block py-2 px-1 text-white hover:bg-teal-600 rounded-md md:border-0 md:p-1.5"
+                class="block py-2 px-1 text-white hover:bg-violet-600 rounded-md md:border-0 md:p-1.5"
               >
                 <span class="sr-only">Login</span>
                 <svg

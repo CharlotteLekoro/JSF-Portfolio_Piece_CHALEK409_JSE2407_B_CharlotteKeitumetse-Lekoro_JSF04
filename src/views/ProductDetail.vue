@@ -4,7 +4,7 @@
     <div>
       <router-link
         to="/"
-        class="inline-block bg-teal-500 text-white px-4 py-2 rounded hover:bg-teal-600"
+        class="inline-block bg-violet-400 text-white px-4 py-2 rounded hover:bg-violet-600"
       >
         ← Back to Products
       </router-link>
@@ -84,7 +84,7 @@
         <!-- Error message if product not found -->
         <p
           v-if="!loading && !product"
-          class="text-center text-red-500 font-extrabold p-4 flex items-center justify-center"
+          class="text-center text-pink-500 font-extrabold p-4 flex items-center justify-center"
         >
           Oops! It looks like the product you're looking for isn't available.
         </p>

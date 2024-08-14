@@ -26,7 +26,7 @@
         >
           <!-- Product Category -->
           <p
-            class="px-2 py-1 bg-indigo-100 text-[#415a77] rounded-md text-xs font-medium"
+            class="px-2 py-1 bg-indigo-300 text-[#415a77] rounded-md text-xs font-medium"
           >
             {{ product.category }}
           </p>
@@ -34,7 +34,7 @@
             <!-- Wishlist Button -->
             <button class="p-1 rounded-full transition-colors duration-300">
               <svg
-                class="h-6 w-6 hover:text-red-500 hover:fill-red-500"
+                class="h-6 w-6 hover:text-red-300 hover:fill-red-400"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

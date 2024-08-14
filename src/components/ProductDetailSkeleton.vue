@@ -8,7 +8,7 @@
       >
         <!-- Placeholder SVG for product image -->
         <svg
-          class="w-10 h-10 text-gray-200 dark:text-gray-600"
+          class="w-10 h-10 text-gray-400 dark:text-gray-600"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -27,19 +27,19 @@
     <!-- Product Details Placeholders -->
     <div class="md:w-1/2">
       <!-- Placeholder for product title -->
-      <div class="h-8 bg-gray-300 rounded w-3/4 mb-4"></div>
+      <div class="h-8 bg-gray-400 rounded w-3/4 mb-4"></div>
       <!-- Placeholder for product rating -->
-      <div class="h-4 bg-gray-300 rounded w-1/4 mb-4"></div>
+      <div class="h-4 bg-gray-400 rounded w-1/4 mb-4"></div>
       <!-- Placeholder for product price -->
-      <div class="h-4 bg-gray-300 rounded w-1/2 mb-4"></div>
+      <div class="h-4 bg-gray-400 rounded w-1/2 mb-4"></div>
       <!-- Placeholder for product availability -->
-      <div class="h-6 bg-gray-300 rounded w-1/4 mb-4"></div>
+      <div class="h-6 bg-gray-400 rounded w-1/4 mb-4"></div>
       <!-- Placeholder for add to cart button -->
-      <div class="h-10 bg-gray-300 rounded w-1/3 mb-6"></div>
+      <div class="h-10 bg-gray-400 rounded w-1/3 mb-6"></div>
       <!-- Placeholders for product description -->
-      <div class="h-4 bg-gray-300 rounded w-full mb-2"></div>
-      <div class="h-4 bg-gray-300 rounded w-full mb-2"></div>
-      <div class="h-4 bg-gray-300 rounded w-3/4"></div>
+      <div class="h-4 bg-gray-400 rounded w-full mb-2"></div>
+      <div class="h-4 bg-gray-400 rounded w-full mb-2"></div>
+      <div class="h-4 bg-gray-400 rounded w-3/4"></div>
     </div>
   </div>
 </template>
