@@ -1,8 +1,8 @@
 <template>
     <div>
       <p class="text-gray-700 mb-2">Product data has been saved to local storage.</p>
-      <button @click="showProductsFromLocalStorage" class="bg-blue-500 text-white px-4 py-2 rounded">
-        Show Products
+      <button @click="toggleProducts" class="bg-blue-500 text-white px-4 py-2 rounded">
+        {{ displayProducts ? 'Hide Products' : 'Show Products' }}
       </button>
   
       <div v-if="displayProducts" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
@@ -56,13 +56,15 @@
           products[index].discountedPrice = products[index].price * (1 - discount / 100);
         });
       },
-      showProductsFromLocalStorage() {
-        // Retrieve products from local storage and display them
-        const storedProducts = localStorage.getItem('products');
-        if (storedProducts) {
-          this.products = JSON.parse(storedProducts);
-          this.displayProducts = true;
+      toggleProducts() {
+        // Toggle the display of products
+        if (!this.displayProducts) {
+          const storedProducts = localStorage.getItem('products');
+          if (storedProducts) {
+            this.products = JSON.parse(storedProducts);
+          }
         }
+        this.displayProducts = !this.displayProducts;
       }
     },
     filters: {
