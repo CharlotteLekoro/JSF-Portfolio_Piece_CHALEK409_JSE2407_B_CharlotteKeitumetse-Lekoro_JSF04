@@ -1,9 +1,8 @@
-# <img src="./public/accusoft-svgrepo-com.svg" align="center" height="48" width="48"/> **_FluxStore_**
+# **_**
 
-FluxStore is a modern, responsive e-commerce application built with Vue 3 and styled using Tailwind CSS. This project demonstrates how to create a dynamic product catalog with features such as product listing, filtering, sorting, and detailed product views.
+Trendy treasures, responsive e-commerce application built with Vue 3 and styled using Tailwind CSS. This project demonstrates how to create a dynamic product catalog with features such as product listing, filtering, sorting, and detailed product views.
 
-![FluxStore Home Page](./src/assets/HomePage_vue.png)
-![FluxStore Product Detail](./src/assets/ProductDetail_Vue.png)
+
 
 ## Features
 
