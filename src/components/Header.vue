@@ -1,6 +1,6 @@
 <template>
   <header class="sticky z-50 top-0">
-    <nav class="bg-teal-700">
+    <nav class="bg-violet-400">
       <div
         class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
       >
@@ -10,14 +10,14 @@
           class="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img
-            src="/public/accusoft-svgrepo-com.svg"
+            src="../assets/android-chrome-192x192.png"
             class="h-8"
             alt="FluxStore Logo"
           />
           <span
             class="self-center text-2xl font-semibold whitespace-nowrap text-white"
           >
-            FluxStore
+            Trendy Treasures
           </span>
         </router-link>
 
