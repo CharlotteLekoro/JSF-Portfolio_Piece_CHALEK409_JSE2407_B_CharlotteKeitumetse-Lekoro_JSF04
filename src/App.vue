@@ -1,28 +1,32 @@
 <template>
   <div id="app" class="min-h-screen bg-gray-100">
-    <Header></Header> 
+    <Header></Header>
     <div class="flex justify-center py-4">
       <ThemeToggle />
     </div>
     <main class="container mx-auto px-4 py-8">
       <router-view></router-view>
+      <!-- Include the ProductList component here -->
+      <ProductList />
     </main>
   </div>
 </template>
 
-
 <script>
 import Header from "../src/components/Header.vue";
 import ThemeToggle from './components/ThemeToggle.vue'; // Import the ThemeToggle component
+import ProductList from './components/ProductList.vue'; // Import the ProductList component
 
 export default {
   name: "App",
   components: {
     Header,
     ThemeToggle, // Register the ThemeToggle component here
+    ProductList, // Register the ProductList component here
   },
 };
 </script>
+
 <style>
 @import './assets/styles/global.css'; /* Optional: Import global styles if any */
 

@@ -16,4 +16,13 @@ body {
   }
   
 
+  body.night {
+    background-color: #233240; /* Dark background color */
+    color: #ecf0f1; /* Light text color */
+  }
+  
+  body {
+    background-color: #ffffff; /* Light background color */
+    color: #292727; /* Dark text color */
+  }
   
