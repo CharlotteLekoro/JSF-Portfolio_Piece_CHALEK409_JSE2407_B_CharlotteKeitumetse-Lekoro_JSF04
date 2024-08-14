@@ -24,13 +24,13 @@ Trendy treasures, responsive e-commerce application built with Vue 3 and styled 
 ## Project Structure
 
 ```
-FluxStore
+
 |-- public
-|   |-- accusoft-svgrepo-com.svg
+|   |-- 
 |-- src
     |-- assets
-    |   |-- HomePage_vue.png
-    |   |-- ProductDetail_Vue.png
+    |   |-- 
+    |   |-- 
     |-- components
     |   |-- CategoryFilter.vue
     |   |-- Header.vue
