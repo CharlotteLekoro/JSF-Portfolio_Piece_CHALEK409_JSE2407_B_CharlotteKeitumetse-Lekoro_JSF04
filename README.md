@@ -19,9 +19,7 @@ The project can be viewed on [ ]
 
 Setup Instructions 📃
 **Clone the repository:**
-
-**git clone**
-
+**git clone**https://github.com/CharlotteLekoro/JSF-Portfolio_Piece_CHALEK409_JSE2407_B_CharlotteKeitumetse-Lekoro_JSF04.git
 **Install dependencies:**
 
 **npm install**
