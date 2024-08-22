@@ -18,6 +18,9 @@ The application that uses Vue.js, Pinia for state management, and Vue Router for
 **Live Deployment**
 The project can be viewed on [https://trendy-treasures-nine.vercel.app/ ]
 
+**Youtube video**
+https://youtu.be/BEV9cgZj2Co
+
 Setup Instructions 📃
 **Clone the repository:**
 **git clone**https://github.com/CharlotteLekoro/JSF-Portfolio_Piece_CHALEK409_JSE2407_B_CharlotteKeitumetse-Lekoro_JSF04.git
